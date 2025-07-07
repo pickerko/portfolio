@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Pickerko – Web Developer</title>
+  <title>Juraj – Web Developer</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -68,7 +68,7 @@
 </head>
 <body>
   <header>
-    <h1>Ahoj, som Pickerko</h1>
+    <h1>Ahoj, som Juraj</h1>
     <p>Začínajúci web developer – tvorím jednoduché a čisté weby</p>
   </header>
 
