@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>O mne – Pickerko</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f4f6fa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #007acc;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      margin-bottom: 1rem;
+    }
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .profile img {
+      width: 180px;
+      border-radius: 50%;
+      border: 4px solid #007acc;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .skills {
+      margin-top: 2rem;
+    }
+    .skills ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .skills li::before {
+      content: "✔️ ";
+      margin-right: 8px;
+    }
+    .contact {
+      background: #e0f0ff;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-top: 2rem;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile">
+      <img src="ja.foto.png" alt="Moja fotka" />
+      <div>
+        <h1>Ahoj, som JURAJ JAROŠ 👋</h1>
+        <p>
+          Som začínajúci web developer. Učím sa HTML, CSS a JavaScript,
+          a každý deň robím pokrok. Rád vytváram čisté a funkčné webové stránky.
+        </p>
+      </div>
+    </div>
 
+    <div class="skills">
+      <h2>Zručnosti</h2>
+      <ul>
+        <li>HTML a CSS</li>
+        <li>JavaScript (začiatočník)</li>
+        <li>Git a GitHub</li>
+        <li>Tvorba jednoduchých webov</li>
+      </ul>
+    </div>
+
+    <div class="contact">
+      <h2>Kontaktuj ma</h2>
+      <p>
+        📧 <a href="mailto:tvojemail@gmail.com">aldawebdevelop@gmail.com</a><br />
+        💻 <a href="https://github.com/pickerko" target="_blank">GitHub profil</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
